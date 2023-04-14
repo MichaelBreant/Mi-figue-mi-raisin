@@ -103,10 +103,32 @@ header{
     -moz-box-shadow: 4px 4px 5px 0px rgba(214, 214, 214, 0.75);
     margin-top: 1rem;
 }
-.lorem1{
+#lorem1{
     font-size: calc(25 * var(--res));
     margin-top: 1rem;
     text-align: center;
+}
+#lorem2{
+    font-size: calc(25 * var(--res));
+    margin-top: 1rem;
+    text-align: center;
+}
+#lorem3{
+    font-size: calc(25 * var(--res));
+    margin-top: 1rem;
+    text-align: center;
+}
+#croix{
+    display: none;
+    width: calc(200 * var(--res));
+}
+#croix1{
+    display: none;
+    width: calc(200 * var(--res));
+}
+#croix2{
+    display: none;
+    width: calc(200 * var(--res));
 }
 /*menu hamburger*/
 
