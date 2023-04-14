@@ -35,6 +35,11 @@ header{
     font-size: calc(25 * var(--res));
     margin: auto;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.bouton:hover{
+    border-bottom: solid 2px #13af4a;
 }
 #separator{
     width: 1px;
