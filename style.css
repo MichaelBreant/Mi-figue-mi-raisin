@@ -29,6 +29,14 @@ header{
     display: flex;
     justify-content: space-evenly; 
 }
+#titre{
+    width: 100%;
+    font-size: calc(100 * var(--res));
+    font-family: "spring";
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .bouton{
     list-style: none;
     font-family: "roboto";
@@ -257,3 +265,30 @@ header #pc ul{
         justify-content: flex-start;
     }
 }  
+/*Page fruits */
+
+#titrefruit{
+    width: 100%;
+    font-size: calc(100 * var(--res));
+    font-family: "spring";
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#photofruit{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    justify-content: space-evenly;
+}
+.photofruit1{
+    width: calc(600 * var(--res));
+    height: calc(400 * var(--res));
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 4px 4px 5px 0px rgba(214, 214, 214, 0.75);
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(214, 214, 214, 0.75);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(214, 214, 214, 0.75);
+}
