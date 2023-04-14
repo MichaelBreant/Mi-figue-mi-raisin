@@ -4,9 +4,18 @@ document.getElementById("resp").addEventListener("click", ()=>{
     var resp = document.getElementById("resp");
     var logoheader = document.getElementById("logoheader");
     var nav = document.getElementById("navigation");
+    var image1 = document.getElementById("image1");
+    var image2 = document.getElementById("image2");
+    var image3 = document.getElementById("image3");
     var img = document.getElementById("img");
     var img1 = document.getElementById("img1");
     var img2 = document.getElementById("img2");
+    var croix = document.getElementById("croix");
+    var croix1 = document.getElementById("croix1");
+    var croix2 = document.getElementById("croix1");
+    var lorem1 = document.getElementById("lorem1");
+    var lorem2 = document.getElementById("lorem2");
+    var lorem3 = document.getElementById("lorem3");
     if(window.getComputedStyle(menu).display == "block"){
         
         menu.style.animation = "fadeout 0.5s"
@@ -29,17 +38,54 @@ document.getElementById("resp").addEventListener("click", ()=>{
           }, 500);
     }
 })
-img.addEventListener('click',()=>{
+image1.addEventListener('click',()=>{
     img.style.width = "100%";
     img.style.display = "flex";
+    lorem1.style.margin = "auto";
+    croix.style.display ="block";
+    croix.style.width = "30px";
+    croix.style.height = "30px";
+    croix.style.cursor = "pointer";
 })
-img1.addEventListener('click',()=>{
+croix.addEventListener('click',()=>{
+    img.style.width = "calc(600 * var(--res))";
+    img.style.display = "block";
+    croix.style.display = "none";
+})
+
+
+image2.addEventListener('click',()=>{
     img1.style.width = "100%";
     img1.style.display = "flex";
-    img1.style.margin = "auto";
+    lorem2.style.margin = "auto";
+    croix1.style.display ="block";
+    croix1.style.width = "30px";
+    croix1.style.height = "30px";
+    croix1.style.cursor = "pointer";
 })
-img2.addEventListener('click',()=>{
+croix1.addEventListener('click',()=>{
+    img1.style.width = "calc(600 * var(--res))";
+    img1.style.display = "block";
+    croix1.style.display = "none";
+
+})
+
+
+image3.addEventListener('click',()=>{
     img2.style.width = "100%";
     img2.style.display = "flex";
-    img2.style.margin = "auto";
+    lorem3.style.margin = "auto";
+    croix2.style.display ="block";
+    croix2.style.width = "30px";
+    croix2.style.height = "30px";
+    croix2.style.cursor = "pointer";
 })
+croix2.addEventListener('click',()=>{
+    img2.style.width = "calc(600 * var(--res))";
+    img2.style.display = "block";
+    croix2.style.display = "none";
+})
+
+
+
+
